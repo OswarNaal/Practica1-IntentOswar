@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/fairy_logo"
+        android:layout_gravity="center"
+        android:id="@+id/tv_logo"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:drawableStart="@drawable/vector_persona"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/et_name"
+        android:layout_below="@id/tv_logo"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass"
+        android:drawableStart="@drawable/vector_lock"
+        android:layout_marginBottom="12dp"
+        android:inputType="textPassword"
+        android:id="@+id/et_password"
+        android:layout_below="@id/et_name"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/entrar"
+        android:layout_below="@id/et_password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bt_login"
+
+
+
+
+        />
+</RelativeLayout>

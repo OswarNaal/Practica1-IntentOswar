@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practica1-OswarNaalC</string>
+    <string name="hint_name">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="bienvenido">Bienvenido</string>
+</resources>
